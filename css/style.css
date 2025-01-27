@@ -24,6 +24,25 @@
   box-sizing: border-box;
 }
 
+/* Diminuir o tamanho das miniaturas dos dots */
+.owl-carousel .owl-dots .owl-dot img {
+  width: 40px;  /* Tamanho da miniatura */
+  height: 40px; /* Tamanho da miniatura */
+  object-fit: cover; /* Mantém a imagem proporcional */
+}
+
+/* Para garantir que os pontos de navegação ainda fiquem bem posicionados */
+.owl-carousel .owl-dots .owl-dot {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px; /* Distância entre os pontos */
+}
+
+/* Para reduzir o tamanho do hover nos dots (quando o mouse passa por cima) */
+.owl-carousel .owl-dots .owl-dot:hover {
+  transform: scale(1.2); /* Aumenta um pouco o tamanho quando passa o mouse */
+}
+
 body {
   overflow-x: hidden; 
   font-family: "Inter", sans-serif;
