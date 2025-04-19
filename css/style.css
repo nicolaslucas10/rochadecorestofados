@@ -97,7 +97,7 @@ a {
 }
 
 .textospin{
- text-shadow: 3px 3px 3px black;
+ text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.267);
 }
 .txt-primary {
   color: var(--primary);
