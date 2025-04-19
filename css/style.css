@@ -48,8 +48,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 :root {
-  --primary: #d31e26;
-  --secondary: #e6353e;
+  --primary: #5D0C1D;
+  --secondary: #5D0C1D;
 
   --light: #f8f8f8;
   --dark: #252525;
@@ -79,6 +79,10 @@ h6,
   font-weight: 400 !important;
 }
 
+.logo{
+  height:45px;
+  width:auto;
+}
 a {
   text-decoration: none;
 }
