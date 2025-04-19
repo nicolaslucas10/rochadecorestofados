@@ -95,6 +95,9 @@ a {
   z-index: 99;
 }
 
+.textospin{
+ text-shadow: 3px 3px 3px black;
+}
 .txt-primary {
   color: var(--primary);
 }
