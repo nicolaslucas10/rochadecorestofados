@@ -98,6 +98,33 @@ a {
 
 .textospin{
  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.267);
+ font-family: 'Courier New', Courier, monospace;
+}
+strong#mar{
+  color: #5D0C1D;
+  text-shadow: 
+  -0.5px -0.5px 0 black,  
+  0.5px -0.5px 0 black,
+  -0.5px  0.5px 0 black,
+   0.5px  0.5px 0 black; /* Adiciona sombra em todas as direções para criar a borda */
+    
+}
+a#strong {
+  color: #5D0C1D;
+ /* Adiciona sombra em todas as direções para criar a borda */
+    font-size:16px; /* Ajuste conforme necessário */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2#strong {
+  color: #5D0C1D;
+  text-shadow: 
+  -1px -1px 0 black,  
+  1px -1px 0 black,
+  -1px  1px 0 black,
+   1px  1px 0 black; /* Adiciona sombra em todas as direções para criar a borda */
+    font-size: 31px; /* Ajuste conforme necessário */
+    font-weight: bold;
 }
 .txt-primary {
   color: var(--primary);
