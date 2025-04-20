@@ -96,6 +96,21 @@ a {
   z-index: 99;
 }
 
+.gallery-img {
+  transition: transform 0.3s ease-in-out;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.fs-7 {
+  font-size: 14px !important;
+}
+
+.gallery img {
+  height: 450px; /* Ajuste a altura conforme necessário */
+  object-fit: cover;
+}
 .textospin{
  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.267);
  font-family: 'Courier New', Courier, monospace;
@@ -129,6 +144,11 @@ h2#strong {
 .txt-primary {
   color: var(--primary);
 }
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
 
 /*** Spinner ***/
 #spinner {
