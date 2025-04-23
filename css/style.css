@@ -107,6 +107,23 @@ a {
   font-size: 14px !important;
 }
 
+
+.btn-servico {
+  background-color: #5D0C1D;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-servico:hover {
+  background-color: #751126;
+  color: #fff;
+}
+
+.icone-check {
+  color: #5D0C1D;
+}
+
+
 .gallery img {
   height: 280px;
   width: 100%;
