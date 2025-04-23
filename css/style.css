@@ -108,9 +108,11 @@ a {
 }
 
 .gallery img {
-  height: 450px; /* Ajuste a altura conforme necessário */
-  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
 }
+
 .textospin{
  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.267);
  font-family: 'Courier New', Courier, monospace;
